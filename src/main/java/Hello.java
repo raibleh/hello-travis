@@ -1,7 +1,6 @@
 
 /**
- * A class containing a main method which prints "Hello Travis!"
- * @author Johannes Drönner
+ * A class containing a main method which prints "Hello Heiko!"
  *
  */
 public class Hello {
@@ -10,8 +9,8 @@ public class Hello {
 	 * A static method returning "Hello Travis!".
 	 * @return "Hello Travis!"
 	 */
-	static public String sayHelloTravis() {
-		return "Hello Travis ";
+	static public String sayHelloHeiko() {
+		return "Hello Heiko ";
 	}; 
 
 	/**
@@ -19,7 +18,7 @@ public class Hello {
 	 * @param args not used
 	 */
 	public static void main(String[] args) {
-		System.out.println(sayHelloTravis()+"!");
+		System.out.println(sayHelloHeiko()+"!");
 
 	}
 
